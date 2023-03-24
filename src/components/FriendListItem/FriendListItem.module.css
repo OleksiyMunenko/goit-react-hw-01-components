@@ -1,0 +1,39 @@
+.item {
+	width: calc(100% / 5);
+	border: 1px solid #0d0d0d;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.item:hover {
+	border: 1px solid #0070A0;
+}
+
+.avatar {
+	width: 60px;
+}
+
+.name {
+	margin-top: 4px;
+	font-size: 24px;
+	font-weight: 400;
+	color: #090a0a;
+}
+
+.onlineStatusIcon {
+	position: relative;
+	top: 8px;
+	left: -50px;
+	fill: #4ce35c;
+}
+
+.offlineStatusIcon {
+	position: relative;
+	top: 8px;
+	left: -50px;
+	fill: #F7859C;
+}
